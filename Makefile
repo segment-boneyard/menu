@@ -1,5 +1,5 @@
 
-build: components template index.js
+build: components template
 	@component build --dev
 
 components: component.json

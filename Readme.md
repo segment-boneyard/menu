@@ -28,7 +28,7 @@ menu.select('Three');
 <li class="menu-item {id}-menu-item"><a>{text | id}</a></li>
 ```
 
-### .add(model **or** id)
+### .add(model | id)
   Add an item to the menu with either a `model` or an `id` string. The default item view uses the model's `text` and/or `id` field to populate it's DOM.
 
 ### .select(id)

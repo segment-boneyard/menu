@@ -1,4 +1,3 @@
-
 # Menu
 
   A menu UI element, with items that can be selected.
@@ -26,7 +25,7 @@ menu.select('Three');
   Initialize a new Menu with an optional item `View` constructor, defaulting to a simple one:
 
 ```html
-<li class="menu-item {id}-menu-item"><a>{id}</a></li>
+<li class="menu-item {id}-menu-item"><a>{text | id}</a></li>
 ```
 
 ### .add(model|id)

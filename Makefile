@@ -11,7 +11,7 @@ clean:
 template:
 	@component convert lib/template.html
 
-test:
+test: build
 	open test/index.html
 
 .PHONY: clean test

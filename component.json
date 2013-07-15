@@ -15,7 +15,8 @@
     "yields/slug": "*"
   },
   "development": {
-    "component/assert": "*"
+    "component/assert": "*",
+    "component/type": "*"
   },
   "scripts": [
     "lib/index.js",

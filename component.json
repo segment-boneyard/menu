@@ -1,6 +1,6 @@
 {
   "name": "menu",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "license": "MIT",
   "repo": "segmentio/menu",
   "description": "A menu UI element, with items that can be selected.",
@@ -16,11 +16,13 @@
   },
   "development": {
     "component/assert": "*",
-    "component/type": "*"
+    "component/type": "*",
+    "segmentio/view": "*"
   },
   "scripts": [
     "lib/index.js",
     "lib/item.js",
+    "lib/protos.js",
     "lib/template.js"
   ],
   "main": "lib/index.js"

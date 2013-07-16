@@ -8,6 +8,7 @@
   "dependencies": {
     "component/dom": "*",
     "component/domify": "*",
+    "component/emitter": "*",
     "component/inherit": "*",
     "component/reactive": "*",
     "ianstormtaylor/get": "*",
@@ -23,6 +24,7 @@
     "lib/index.js",
     "lib/item.js",
     "lib/protos.js",
+    "lib/statics.js",
     "lib/template.js"
   ],
   "main": "lib/index.js"

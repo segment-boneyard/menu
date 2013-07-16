@@ -30,4 +30,13 @@ describe('menu', function () {
     var Menu = menu(View);
     assert('function' === typeof Menu);
   });
+
+  it('should emit construct', function (done) {
+    var View = view('<div></div>');
+    var Menu = menu(View);
+    Menu.on('construct', function (menu) {
+      done();
+    });
+    new Menu();
+  });
 });

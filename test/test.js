@@ -20,16 +20,17 @@ document.body.appendChild(menu.el);
  * Next + previous.
  */
 
-var next = document.createElement('button');
-next.textContent = 'next';
+var next = document.getElementById('next');
 next.onclick = function (e) {
   menu.next();
 };
-document.body.appendChild(next);
 
-var previous = document.createElement('button');
-previous.textContent = 'previous';
+var previous = document.getElementById('previous');
 previous.onclick = function (e) {
   menu.previous();
 };
-document.body.appendChild(previous);
+
+var focus = document.getElementById('focus');
+focus.onclick = function (e) {
+  menu.focus();
+};

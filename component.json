@@ -15,6 +15,7 @@
     "component/reactive": "*",
     "ianstormtaylor/get": "*",
     "segmentio/list": "*",
+    "yields/prevent": "*",
     "yields/slug": "*"
   },
   "scripts": [

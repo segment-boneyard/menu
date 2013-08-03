@@ -9,16 +9,13 @@
     "component/dom": "*",
     "component/domify": "*",
     "component/emitter": "*",
+    "component/events": "*",
     "component/inherit": "*",
+    "component/keyname": "*",
     "component/reactive": "*",
     "ianstormtaylor/get": "*",
     "segmentio/list": "*",
     "yields/slug": "*"
-  },
-  "development": {
-    "component/assert": "*",
-    "component/type": "*",
-    "segmentio/view": "*"
   },
   "scripts": [
     "lib/index.js",

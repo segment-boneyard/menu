@@ -34,3 +34,8 @@ var focus = document.getElementById('focus');
 focus.onclick = function (e) {
   menu.focus();
 };
+
+var select = document.getElementById('select');
+select.onclick = function (e) {
+  menu.select();
+};

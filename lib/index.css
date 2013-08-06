@@ -1,0 +1,12 @@
+
+/**
+ * Menu.
+ *
+ * menu.menu
+ *   li.menu-item
+ *     a.menu-item-link
+ */
+
+.menu:focus {
+  outline: none; /* people won't assume they need to style the focused state */
+}

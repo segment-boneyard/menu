@@ -25,5 +25,8 @@
     "lib/statics.js",
     "lib/template.js"
   ],
+  "styles": [
+    "lib/index.css"
+  ],
   "main": "lib/index.js"
 }

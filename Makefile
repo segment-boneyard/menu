@@ -1,12 +1,12 @@
 
-build: components template
+build: components lib/*
 	@component build --dev
 
 components: component.json
 	@component install --dev
 
 clean:
-	rm -fr build components template.js
+	rm -fr build components
 
 template:
 	@component convert lib/template.html

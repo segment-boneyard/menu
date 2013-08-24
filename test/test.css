@@ -29,3 +29,12 @@ body {
   content: '.selected';
   color: gray;
 }
+
+.menu li.hidden {
+  opacity: .5;
+}
+
+.menu li.hidden::after {
+  content: '.hidden';
+  color: gray;
+}

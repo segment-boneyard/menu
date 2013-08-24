@@ -12,6 +12,12 @@ menu.add('two');
 menu.add('three');
 menu.add('four');
 menu.add('five');
+menu.add('six');
+menu.add('seven');
+
+menu.filter(function (el, model, view) {
+  return model.id.length !== 5;
+});
 
 document.body.appendChild(menu.el);
 

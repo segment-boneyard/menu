@@ -6,7 +6,7 @@
   "description": "A menu UI element, with items that can be selected.",
   "keywords": ["menu", "list", "collection", "view", "items"],
   "dependencies": {
-    "component/dom": "0.8.0",
+    "component/dom": "*",
     "component/domify": "*",
     "component/emitter": "*",
     "component/events": "*",

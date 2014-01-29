@@ -1,6 +1,6 @@
 {
   "name": "menu",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "license": "MIT",
   "repo": "segmentio/menu",
   "description": "A menu UI element, with items that can be selected.",
@@ -14,7 +14,7 @@
     "component/keyname": "*",
     "component/reactive": "*",
     "ianstormtaylor/get": "*",
-    "segmentio/list": "*",
+    "segmentio/list": "0.2.4",
     "yields/prevent": "*",
     "yields/slug": "*"
   },
